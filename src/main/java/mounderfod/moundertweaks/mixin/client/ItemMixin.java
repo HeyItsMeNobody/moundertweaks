@@ -22,6 +22,7 @@ import java.util.List;
 @Mixin(Item.class)
 public abstract class ItemMixin {
     // "Improved" and rewritten Shnupbups code.
+    // https://github.com/Shnupbups/tooltip-tool-tips/blob/master/src/main/java/com/shnupbups/tooltiptooltips/mixin/ItemMixin.java
 
     @Inject(method = "appendTooltip(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/item/TooltipContext;)V", at = @At("HEAD"))
     public void appendTooltipInject(ItemStack stack, World world, List<Text> tooltip, TooltipContext context, CallbackInfo ci) {
