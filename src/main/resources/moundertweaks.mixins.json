@@ -10,7 +10,8 @@
   "client": [
     "client.BambooBlockMixin",
     "client.OptionScreenMixin",
-    "client.PotionItemMixin"
+    "client.PotionItemMixin",
+    "client.ItemMixin"
   ],
   "server": [],
   "injectors": {

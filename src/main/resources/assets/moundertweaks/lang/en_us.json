@@ -67,5 +67,13 @@
     "text.autoconfig.moundertweaks.category.client": "Client",
     "mounderfod.moundertweaks.coordinates": "Coordinates: ",
     "text.autoconfig.moundertweaks.option.common.lampToggle": "Toggleable Redstone Lamps",
-    "text.autoconfig.moundertweaks.option.common.lampToggle.@Tooltip": "Enable toggling of redstone lamps with a redstone torch"
+    "text.autoconfig.moundertweaks.option.common.lampToggle.@Tooltip": "Enable toggling of redstone lamps with a redstone torch",
+
+    "moundertweaks.tooltip.harvest_level": "Harvest Level: %d",
+    "moundertweaks.tooltip.harvest_speed": "Harvest Speed: %d",
+    "moundertweaks.tooltip.enchantability": "Enchantability: %d",
+    "moundertweaks.tooltip.max_durability": "Max Durability: %d",
+    "moundertweaks.tooltip.press_shift": "Press SHIFT for more information",
+    "text.autoconfig.moundertweaks.option.client.advancedToolTips": "Advanced tool tips",
+    "text.autoconfig.moundertweaks.option.client.advancedToolTips.@Tooltip": "Adds more information to the tooltips of an item"
 }

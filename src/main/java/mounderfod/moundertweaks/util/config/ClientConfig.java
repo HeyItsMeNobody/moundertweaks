@@ -11,4 +11,7 @@ public class ClientConfig implements ConfigData {
 
     @Tooltip
     public boolean optimizedBamboo = true;
+
+    @Tooltip
+    public boolean advancedToolTips = true;
 }
